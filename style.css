@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato" sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;    
+}
+
+
+
+
+.paralleximg1{
+    background-image: url(images/image1.png);
+    min-height: 100%;
+  
+  
+
+}
+.paralleximg2{
+    background-image: url(images/image2.png);
+    min-height: 400px;
+  
+
+}
+.paralleximg3{
+    background-image: url(images/image3.png);
+    min-height: 400px;
+  
+
+}
+
+
+.paralleximg1,  .paralleximg2, .paralleximg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallextext{
+    position: absolute;
+    top: 50%;
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px ;
+    letter-spacing: 8px;
+    text-align: center;
+    width: 100%;
+}
+.textBg{
+    background-color: #313534;
+    color: #fff;
+    padding: 20px;
+}
+
+.section {
+    padding: 50px 80px ;
+    text-align: center;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
